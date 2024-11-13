@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafpets Store</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav class="navbar">
+        <h1>Rafpets Store</h1>
+        <ul class="nav-links">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact us</a>
+          </li>
+        </ul>
+        <!-- Barre de recherche et panier -->
+        <div class="d-flex align-items-center search-cart-container">
+          <input
+            type="text"
+            class="form-control mr-2"
+            placeholder="Recherche..."
+          />
+          <button class="btn btn-outline-light mr-3">Rechercher</button>
+          <a href="#cart" class="cart-icon text-white">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="badge badge-pill badge-light">0</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Product Section -->
+    <section id="products" class="product-section">
+      <h2>Our Products</h2>
+      <div class="product-container">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+          <img
+            src="https://all-for-pets.tn/site/images/CHIENS/Selleries/Harnais/reste-04-Personnalis.png"
+            class="card-img-top"
+            alt="Harnais"
+            alt="Product 1"
+          />
+          <h5 class="card-title">Julius k9 Harnais IDC-POWER Camouflage</h5>
+          <p>
+            Cet harnais est idéal pour les promenades, les activités sportives
+            et même pour un usage professionnel
+          </p>
+
+          <button>Shop Now</button>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1" />
+          <h3>Product Name 1</h3>
+          <p>Brief description of the product.</p>
+          <button>Shop Now</button>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1" />
+          <h3>Product Name 1</h3>
+          <p>Brief description of the product.</p>
+          <button>Shop Now</button>
+        </div>
+        <!-- Product Card 4 -->
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1" />
+          <h3>Product Name 1</h3>
+          <p>Brief description of the product.</p>
+          <button>Shop Now</button>
+        </div>
+        <!-- Product Card 5 -->
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1" />
+          <h3>Product Name 1</h3>
+          <p>Brief description of the product.</p>
+          <button>Shop Now</button>
+        </div>
+        <!-- Product Card 6 -->
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1" />
+          <h3>Product Name 1</h3>
+          <p>Brief description of the product.</p>
+          <button>Shop Now</button>
+        </div>
+        <!-- Product Card 7 -->
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1" />
+          <h3>Product Name 1</h3>
+          <p>Brief description of the product.</p>
+          <button>Shop Now</button>
+        </div>
+        <!-- Product Card 8 -->
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1" />
+          <h3>Product Name 1</h3>
+          <p>Brief description of the product.</p>
+          <button>Shop Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./rafpets.jpg" class="img-fluid" alt="About Us" />
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <div>
+              <h2>About Us</h2>
+              <p>
+                We are a family-owned pet store offering a variety of pets
+                accessories and foods provide you with a best product.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+      <a href="tel:+21625688838">Tel: +216 25 688 838</a><br />
+      <a href="mailto:rafpets.store@gmail.com"
+        >Email: rafpets.store@gmail.com</a
+      >
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="text-white"
+          >
+            <img
+              width="20"
+              height="20"
+              src="./icon facebook 5.png"
+              alt="twitter" /><i class="bi bi-facebook"></i
+          ></a>
+        </li>
+
+        <li class="list-inline-item">
+          <a href="https://www.twitter.com/" target="_blank" class="text-white">
+            <img
+              width="20"
+              height="20"
+              src="./icon twitter.jfif"
+              alt="twitter" /><i class="bi bi-twitter"></i
+          ></a>
+        </li>
+
+        <li class="list-inline-item">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="text-white"
+          >
+            <img
+              width="20"
+              height="20"
+              src="./instagram icon petit.jpg"
+              alt="instagram" /><i class="bi bi-instagram"></i
+          ></a>
+        </li>
+      </ul>
+      <p>&copy; 2024 Rafpets | Follow us on social media</p>
+    </footer>
+  </body>
+</html>
